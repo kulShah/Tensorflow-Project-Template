@@ -26,7 +26,7 @@ except ImportError:
     print("Relative import failed")
 
 try:
-    from utlis.logger import Logger
+    from utils.logger import Logger
 except ImportError:
     print("Relative import failed")
 
