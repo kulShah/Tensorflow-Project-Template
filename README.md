@@ -36,6 +36,10 @@ In a nutshell here's how to use this template, so **for example** assume you wan
 - Override these two functions "build_model" where you implement the vgg model, and "init_saver" where you define a tensorflow saver, then call them in the initalizer.
     
 ```python
+pip3 install -r requirements.txt
+```
+
+```python
      def build_model(self):
         # here you build the tensorflow graph of any model you want and also define the loss.
         pass
