@@ -1,4 +1,4 @@
-# import tensorflow as tf
+import tensorflow as tf
 
 try:
     from data_loaders.data_loader import DataLoader
