@@ -21,7 +21,13 @@ The main idea is that there's much stuff you do every time you start your tensor
  -  [Acknowledgments](#acknowledgments)
 
 # In a Nutshell   
-In a nutshell here's how to use this template, so **for example** assume you want to implement VGG model so you should do the following:
+In a nutshell here's how to use this template, start with installing the dependencies from ```requirements.txt```
+
+```python
+pip3 install -r requirements.txt
+```
+
+Assume you want to implement VGG model so you should do the following:
 -  In models folder create a class named VGG that inherit the "base_model" class
 
 ```python
@@ -34,10 +40,7 @@ In a nutshell here's how to use this template, so **for example** assume you wan
             self.init_saver() 
   ```
 - Override these two functions "build_model" where you implement the vgg model, and "init_saver" where you define a tensorflow saver, then call them in the initalizer.
-    
-```python
-pip3 install -r requirements.txt
-```
+
 
 ```python
      def build_model(self):
