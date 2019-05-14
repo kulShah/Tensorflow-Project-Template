@@ -3,37 +3,37 @@ import tensorflow as tf
 try:
     from data_loaders.data_loader import DataLoader
 except ImportError:
-    print("Relative import failed")
+    print("DataLoader import failed")
 
 try:
     from model.model import Model
 except ImportError:
-    print("Relative import failed")
+    print("Model import failed")
 
 try:
     from trainers.trainer import Trainer
 except ImportError:
-    print("Relative import failed")
+    print("Trainer import failed")
 
 try:
     from utils.config_parser import process_config_file
 except ImportError:
-    print("Relative import failed")
+    print("process_config_file import failed")
 
 try:
     from utils.dirs import create_dirs
 except ImportError:
-    print("Relative import failed")
+    print("create_dirs import failed")
 
 try:
     from utils.logger import Logger
 except ImportError:
-    print("Relative import failed")
+    print("Logger import failed")
 
 try:
     from utils.utils import get_args
 except ImportError:
-    print("Relative import failed")
+    print("get_args import failed")
 
 def main():
     # capture the config path from the run arguments
